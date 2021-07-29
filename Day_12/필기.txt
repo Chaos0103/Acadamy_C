@@ -1,0 +1,16 @@
+리스트 형태에 따라 Stack, Queue, Tree, Graph가 결정된다.
+추상 자료형(ADT) : 어떤 기능을 할지
+순차, 연결 리스트는 ADT 차이가 거의 없다.
+
+<ADT정의>
+void ListInit -> 리스트 초기화
+void LInsert -> 리스트에 데이터 저장
+int LFirst -> 탐색(첫번째 값)
+int LNext -> 탐색(다음 값)
+LData LRemove -> 데이터 삭제
+int LCount -> 데이터 카운팅
+
+시간복잡도는 연결리스트가 좋음
+공간복잡도는 배열이 좋음
+
+시간복잡도랑 공간복잡도를 최소화 시키는게 자료구조
